@@ -1,0 +1,67 @@
+.flats-card {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px rgb(180, 180, 180);
+	padding: 4px;
+	margin: 20px 0;
+}
+
+
+.card-image {
+	position: relative;
+	height: 250px;
+	background-position: center center;
+	background-size: cover;
+	flex-shrink: 0;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+	padding: 8px 16px;
+	flex-grow: 1;
+}
+
+
+.card-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	background-color: rgb(235, 235, 235);
+}
+
+.main-title {
+	margin: 20px;
+}
+
+.card-name h4 {
+	font-size: 18px;
+	color: rgb(20, 20, 20);
+}
+
+.card-info p {
+	color: rgb(60, 60, 60);
+}
+
+.card-heart {
+	font-size: 32px;
+	color: white;
+	position: absolute;
+	top: 32px;
+	right: 32px;
+}
+
+.card-heart:hover {
+	color: #cf3030;
+}
+
+.red {
+	color: #cf3030;
+}
